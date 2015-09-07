@@ -1,0 +1,14 @@
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\TaxReturn.ApplicationServices.dll
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\TaxReturn.ApplicationServices.pdb
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\obj\Debug\TaxReturn.ApplicationServices.csprojResolveAssemblyReference.cache
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\obj\Debug\TaxReturn.ApplicationServices.dll
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\obj\Debug\TaxReturn.ApplicationServices.pdb
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\TaxReturn.Core.dll
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\TaxReturn.Core.pdb
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\TaxReturn.Repository.dll
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\EntityFramework.dll
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\TaxReturn.Repository.pdb
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\EntityFramework.xml
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\TaxReturn.ApplicationServices.dll.config
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.ApplicationServices\bin\Debug\EntityFramework.SqlServer.xml

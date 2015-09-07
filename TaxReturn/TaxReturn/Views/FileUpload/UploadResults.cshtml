@@ -1,0 +1,26 @@
+﻿@model TaxReturn.Models.FileUploadResultsViewModel
+
+@{
+    ViewBag.Title = "UploadResults";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Upload Results</h2>
+
+@if (Model != null)
+{
+    @Html.Raw(Model.NumberOfLinesIgnored);
+    <br/>
+    @Html.Raw(Model.NumberOfLinesUploaded);
+
+    if (!Model.Valid)
+    {
+         <div class=".row">@Html.Raw("The following error messages were reported");</div>
+         foreach (var item in Model.ErrorMessages)
+          {
+              var errorMessages = item.Value.Aggregate(String.Empty, (current, errorMessage) => current + "," + errorMessage);
+              <div class=".row">@Html.Raw(String.Concat("Line number ", item.Key, ":  ", errorMessages));</div>
+           }
+                                          
+     }
+}

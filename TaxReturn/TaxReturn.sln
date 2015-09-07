@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxReturn", "TaxReturn\TaxReturn.csproj", "{FDA7CB39-9DCB-4A2C-AE30-6BA8166C84F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxReturn.ApplicationServices", "TaxReturn.ApplicationServices\TaxReturn.ApplicationServices.csproj", "{AFAE1CF6-EA4B-4B64-A411-9E6AE4EF86D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F4D96272-B4CA-41DB-83C9-495B52FA0030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxReturn.ApplicationServices.Tests", "TaxReturn.ApplicationServices.Tests\TaxReturn.ApplicationServices.Tests.csproj", "{E146B795-9471-4A5E-95EE-D266BE3E2400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxReturn.Core", "TaxReturn.Core\TaxReturn.Core.csproj", "{DD53F557-6430-48F8-961F-F64DA3831A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxReturn.Repository", "TaxReturn.Repository\TaxReturn.Repository.csproj", "{2C692DB9-A34C-49E6-AB64-44F70ED3D5D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA7CB39-9DCB-4A2C-AE30-6BA8166C84F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA7CB39-9DCB-4A2C-AE30-6BA8166C84F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA7CB39-9DCB-4A2C-AE30-6BA8166C84F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA7CB39-9DCB-4A2C-AE30-6BA8166C84F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAE1CF6-EA4B-4B64-A411-9E6AE4EF86D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAE1CF6-EA4B-4B64-A411-9E6AE4EF86D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAE1CF6-EA4B-4B64-A411-9E6AE4EF86D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAE1CF6-EA4B-4B64-A411-9E6AE4EF86D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E146B795-9471-4A5E-95EE-D266BE3E2400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E146B795-9471-4A5E-95EE-D266BE3E2400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E146B795-9471-4A5E-95EE-D266BE3E2400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E146B795-9471-4A5E-95EE-D266BE3E2400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD53F557-6430-48F8-961F-F64DA3831A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD53F557-6430-48F8-961F-F64DA3831A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD53F557-6430-48F8-961F-F64DA3831A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD53F557-6430-48F8-961F-F64DA3831A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C692DB9-A34C-49E6-AB64-44F70ED3D5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C692DB9-A34C-49E6-AB64-44F70ED3D5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C692DB9-A34C-49E6-AB64-44F70ED3D5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C692DB9-A34C-49E6-AB64-44F70ED3D5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E146B795-9471-4A5E-95EE-D266BE3E2400} = {F4D96272-B4CA-41DB-83C9-495B52FA0030}
+	EndGlobalSection
+EndGlobal

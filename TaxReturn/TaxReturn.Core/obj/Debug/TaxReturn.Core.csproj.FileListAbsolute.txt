@@ -1,0 +1,5 @@
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.Core\bin\Debug\TaxReturn.Core.dll
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.Core\bin\Debug\TaxReturn.Core.pdb
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.Core\obj\Debug\TaxReturn.Core.csprojResolveAssemblyReference.cache
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.Core\obj\Debug\TaxReturn.Core.dll
+C:\Projects\GIT\Hobby\TaxReturn\TaxReturn\TaxReturn.Core\obj\Debug\TaxReturn.Core.pdb

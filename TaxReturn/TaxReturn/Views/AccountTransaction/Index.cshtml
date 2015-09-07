@@ -1,0 +1,35 @@
+﻿@using PagedList.Mvc
+@model PagedList.IPagedList<TaxReturn.Models.AccountTransactionViewModel>
+
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <h2>View All Account Transactions</h2>
+
+<table class="table">
+
+    <tr>
+        <th>Account Id</th>
+        <th>Account</th>
+        <th>Description</th>
+        <th>Currency Code</th>
+        <th>Amount</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.AccountId)</td>
+            <td>@Html.DisplayFor(modelItem => item.Account)</td>
+            <td>@Html.DisplayFor(modelItem => item.Description)</td>
+            <td>@Html.DisplayFor(modelItem => item.CurrencyCode)</td>
+            <td>@Html.DisplayFor(modelItem => item.Amount)</td>
+        </tr>
+    }
+
+</table>
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
