@@ -21,12 +21,13 @@ namespace TaxReturn.Controllers
 
         public ActionResult Upload(HttpPostedFileBase upload)
         {
-            if(upload == null)
+            if(upload == null || upload.FileName.EndsWith(".csv"))
                 ModelState.AddModelError("Missing file", "Please upload file");
             try
             {
                 if (ModelState.IsValid)
                 {
+                  
                     var result =  _fileUploadContentService.UploadFile(upload.InputStream);
                     var viewModel = new FileUploadResultsViewModel(result);
                     return View("UploadResults", viewModel);
